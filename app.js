@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+const loadApp = () => {
   const slackUserName = document.querySelector('[data-textid="slackUserName"]');
   const currentDayOfTheWeek = document.querySelector(
     '[data-textid="currentDayOfTheWeek"]'
@@ -30,4 +30,5 @@ document.addEventListener("DOMContentLoaded", function () {
     undefined,
     options
   );
-});
+};
+document.addEventListener("DOMContentLoaded", loadApp);
