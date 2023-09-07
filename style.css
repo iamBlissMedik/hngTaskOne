@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+p {
+  color: grey;
+  font-size: 25px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
