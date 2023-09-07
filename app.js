@@ -31,4 +31,5 @@ const loadApp = () => {
     options
   );
 };
-document.addEventListener("DOMContentLoaded", loadApp);
+
+setInterval(loadApp, 1000);
