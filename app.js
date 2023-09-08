@@ -29,4 +29,4 @@ const loadApp = () => {
   currentUTCTime.textContent = currentUTCTimeInMilliseconds;
 };
 
-setInterval(loadApp, 1000);
+document.addEventListener("DOMContentLoaded", loadApp);
