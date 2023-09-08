@@ -1,10 +1,10 @@
 const loadApp = () => {
-  const slackUserName = document.querySelector('[data-textid="slackUserName"]');
+  const slackUserName = document.querySelector('[data-testid="slackUserName"]');
   const currentDayOfTheWeek = document.querySelector(
-    '[data-textid="currentDayOfTheWeek"]'
+    '[data-testid="currentDayOfTheWeek"]'
   );
   const currentUTCTime = document.querySelector(
-    '[data-textid="currentUTCTime"]'
+    '[data-testid="currentUTCTime"]'
   );
 
   //  Slack Name

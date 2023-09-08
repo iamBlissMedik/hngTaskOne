@@ -9,18 +9,26 @@
   <body>
     <div class="container">
       <!-- slack name -->
-      <h1 data-textid="slackUserName">Blizz</h1>
+      <h1 class="slackUserName" data-testid="slackUserName">Blizz</h1>
       <!-- slack display picture -->
-      <img src="/me.jpg" alt="Blizz" data-textid="slackDisplayImage" />
+      <img
+        src="/me.jpg"
+        alt="Blizz"
+        class="slackDisplayImage"
+        data-testid="slackDisplayImage"
+      />
       <!-- current day of the week -->
-      <p data-textid="currentDayOfTheWeek">Friday</p>
+      <p class="currentDayOfTheWeek" data-testid="currentDayOfTheWeek">
+        Friday
+      </p>
       <!-- Current UTC Time -->
-      <p data-textid="currentUTCTime">Loading...</p>
+      <p class="currentUTCTime" data-testid="currentUTCTime">Loading...</p>
       <!-- track -->
-      <p data-textid="myTrack">Frontend</p>
+      <p class="myTrack" data-testid="myTrack">Frontend</p>
       <!-- github -->
       <a
-        data-textid="githubURL"
+        class="githubURL"
+        data-testid="githubURL"
         href="https://github.com/iamBlissMedik/hngTaskOne"
         target="_blank"
         >Github Repository</a
