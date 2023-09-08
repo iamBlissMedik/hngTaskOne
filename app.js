@@ -22,7 +22,7 @@ const loadApp = () => {
   ];
   const currentDate = new Date();
   const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
-  currentDayOfTheWeek.textContent = dayOfWeek;
+  currentDayOfTheWeek.textContent = `${dayOfWeek},`;
 
   // Current UTC Time
   const options = {
