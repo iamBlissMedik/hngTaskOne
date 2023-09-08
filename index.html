@@ -3,36 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>TASK ONE</title>
   </head>
   <body>
-    <!-- slack name -->
-    <h1 data-textid="slackUserName"></h1>
-    <!-- slack display picture -->
-    <img src="/me.jpg" alt="Blizz" data-textid="slackDisplayImage" />
-    <!-- current day of the week -->
-    <div>
-      <p data-textid="currentDayOfTheWeek"></p>
-    </div>
-    <!-- Current UTC Time -->
-    <div>
-      <p data-textid="currentUTCTime"></p>
-    </div>
-    <!-- track -->
-    <div>
+    <div class="container">
+      <!-- slack name -->
+      <h1 data-textid="slackUserName">Blizz</h1>
+      <!-- slack display picture -->
+      <img src="/me.jpg" alt="Blizz" data-textid="slackDisplayImage" />
+      <!-- current day of the week -->
+      <p data-textid="currentDayOfTheWeek">Friday</p>
+      <!-- Current UTC Time -->
+      <p data-textid="currentUTCTime">Loading...</p>
+      <!-- track -->
       <p data-textid="myTrack">Frontend</p>
-    </div>
-    <!-- github -->
-    <div>
+      <!-- github -->
       <a
+        data-textid="githubURL"
         href="https://github.com/iamBlissMedik/hngTaskOne"
         target="_blank"
-        data-textid="githubURL"
         >Github Repository</a
       >
     </div>
 
-    <script src="/app.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
