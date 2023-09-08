@@ -25,7 +25,12 @@ const loadApp = () => {
   currentDayOfTheWeek.textContent = dayOfWeek;
 
   // Current UTC Time
-  const options = { timeZone: "UTC", hour12: false };
+  const options = {
+    timeZone: "UTC",
+    hour12: false,
+    hour: "numeric",
+    minute: "numeric",
+  };
   currentUTCTime.textContent = currentDate.toLocaleTimeString(
     undefined,
     options
