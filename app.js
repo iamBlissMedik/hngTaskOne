@@ -25,7 +25,7 @@ const loadApp = () => {
   currentDayOfTheWeek.textContent = `${dayOfWeek}`;
 
   // Current UTC Time
-  const currentUTCTimeInMilliseconds = new Date().getTime();
+  const currentUTCTimeInMilliseconds = new Date().getUTCMilliseconds();
   currentUTCTime.textContent = currentUTCTimeInMilliseconds;
 };
 
