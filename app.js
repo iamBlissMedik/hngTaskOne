@@ -22,19 +22,11 @@ const loadApp = () => {
   ];
   const currentDate = new Date();
   const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
-  currentDayOfTheWeek.textContent = `${dayOfWeek},`;
+  currentDayOfTheWeek.textContent = `${dayOfWeek}`;
 
   // Current UTC Time
-  const options = {
-    timeZone: "UTC",
-    hour12: false,
-    hour: "numeric",
-    minute: "numeric",
-  };
-  currentUTCTime.textContent = currentDate.toLocaleTimeString(
-    undefined,
-    options
-  );
+  const currentUTCTimeInMilliseconds = new Date().getTime();
+  currentUTCTime.textContent = currentUTCTimeInMilliseconds;
 };
 
 setInterval(loadApp, 1000);
